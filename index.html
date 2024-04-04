@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum-Emanuel Rivera</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Favicon.ico." type="image/x-icon">
+</head>
+<body>
+
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">TECLACODE</a>
+            </div>
+            <nav id="nav">
+                
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/logo.png" alt="">
+            </div>
+            <h1>Emanuel Rivera</h1>
+            <p>"TeclaCode"</p>
+            <br>
+            <h2>Desarrollador Front-End</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/el_tkla_dev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/TeclaCode" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573113855832&text=" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://t.me/TeclaCode" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Emanuel Rivera Diaz. ("TeclaCode")</span> Tecnólogo superior en Análisis y desarrollo de sistemas de información, con experiencia en lenguajes de programación, y desarrollo Front-end con lenguajes como HTML, CSS, JAVASCRIPT y PYTHON. <br>
+            Amante autodidacta a la Lectura, Astronomía, Historia, Filosofía, Psicología, Psicoanálisis, y a todas las ciencias del comportamiento y la conducta humana a lo largo de la historia. <br> 
+            Al combinar todas estas pasiones por la tecnología, la astronomía, la psicología, la programación, etc... Puedo desempeñar un papel clave en la creación e interaccion de experiencias innovadoras que no solo educan y entretienen, sino que también pueden influir positivamente en la forma en que las personas interactúan con el mundo que les rodea y con la tecnología misma.
+            </p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Edad: </strong>
+                            21
+                        </li>
+                        <li>
+                            <strong>Teléfono: </strong>
+                            3113855832
+                        </li>
+                        <li>
+                            <strong>Email: </strong>
+                            <a href="mailto:riveraenmanuel12@gmail.com">Enviame un Correo</a>
+                        </li>
+                        <li>
+                            <strong>Cargo: </strong>
+                            <span>Desarrollador Front-End</span>
+                        </li>
+                    </ul>
+            </div>
+                <div class="col">
+                    <h3>Intereses y Pasatiempos</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMEPLAY</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>LAP TOP</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-dribbble"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades Tecnicas</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Manejo de Microsoft Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestion de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Servicio Nacional de Aprendizaje</h4>
+                        <span class="casa">Analisis y desarrollo de sistemas de informacion</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Tecnologo superior en Analisis y desarrollo de sistemas de informacion, con conocimientos en Html, Css, Javascript, Python, Hosting y todo lo relacionado al desarrollo web.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Intereses</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/meditation.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Metafisica</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/python-edit.png" style="width: 250px;">
+                    <div class="overlay">
+                        <h3>Python</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/htmlcss-edit.png" alt="" style="width: 250px;">
+                    <div class="overlay">
+                        <h3>Html & Css</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/JavaScript-logo.png" alt="" style="width: 250px;">
+                    <div class="overlay">
+                        <h3>Javascript</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Nietzsche.jpg" alt="" style="width: 250px;">
+                    <div class="overlay">
+                        <h3>Friedrich Nietzsche</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Valledupar/cesar
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3113855832
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:riveraenmanuel12@gmail.com">Enviame un correo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
